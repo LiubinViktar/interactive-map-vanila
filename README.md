@@ -7,7 +7,7 @@ modules:
 4. interaction-with-map - event listeners and elements style interactions
 5. map - svg map
 
-npm install wabpack webpack-cli --save-dev
+npm install webpack webpack-cli --save-dev
 npm install json-server 
 npx webpack
 npx json-server db.json
