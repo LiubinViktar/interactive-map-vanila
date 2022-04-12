@@ -1,0 +1,115 @@
+.section_c4 h2 {
+    margin: 40px 0 10px 0;
+    font-size: 54px;
+    font-weight: 600;
+    color: #598bc5;
+    text-shadow: 2px 2px #eaeaea;
+    text-align: center;
+}
+.mobileView .section_c4 h2 {
+    display: none;
+}
+.branch-image-box {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.branch-arrow {
+    box-shadow: 3px 3px 4px #9fabc1;
+    background-color: #ffffff;
+    border: 1px solid #e7effd;
+    padding: 15px 4px;
+    margin-bottom: 14px;
+    font-size: 2.4em !important;
+    font-weight: 700;
+    align-items: center;
+    align-self: center;
+    color: #c5d6f3;
+    cursor: pointer;
+}
+.branch-parent-box {
+    box-shadow: 3px 3px 4px #9fabc1;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    margin: 0 auto;
+    margin-bottom: 77px;
+    margin-right: 111px;
+    position: relative;
+}
+
+.branch-parent-box h2 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #5383bb;
+    cursor: pointer;
+}
+
+.branch-parent-box ul li {
+    list-style: none;
+    color: #627fa3;
+    font-size: 0.9em;
+}
+
+.branch-parent-box img {
+    cursor: pointer;
+}
+
+.branch-parent-box ul {
+    box-shadow: 3px 3px 4px #9fabc1;
+    background-color: #ffffff;
+    border: 1px solid #e7effd;
+}
+.map-container {
+    width: calc(100% - 820px);
+}
+.mobileView .map-parent-container {
+  display: none;
+}
+.map-parent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.svg_region {
+    fill: #6a8ac2;
+    stroke: #30598d;
+    stroke-width: 0.6px;
+}.svg_region:hover {
+    fill: #5081be;
+    stroke: #30598d;
+}
+.svg_text {
+    font-size: 4px;
+    fill: white;
+    font-weight: 600;
+    pointer-events: none;
+}
+.svg_region-red {
+    fill: #e17c80;
+    stroke: #30598d;
+    stroke-width: 0.6px;
+}
+#t_grodno {
+    font-size: 9px;
+}
+#t_schuchin {
+    font-size: 7px;
+}
+#t_lidar {
+    font-size: 7px;
+}
+#t_dyatlovo {
+    font-size: 5px;
+}
+#t_berestovitsa {
+    font-size: 2.5px;
+}
+#t_ivyer {
+    font-size: 7px;
+}
+#t_novogrudok {
+    font-size: 5px;
+}
