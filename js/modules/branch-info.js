@@ -7,7 +7,8 @@ import editBranch from "./edit-branch";
 const createBranchInfo = (pathId = 'default') => {    		
 
     const branchParentContainer = document.createElement('div'),
-    branch = document.querySelector('.branch-container');
+    branch = document.querySelector('.branch-container'),
+    addr = 'localhost:3000';
 
     branchParentContainer.classList.add('branch-parent-box');	
 
@@ -17,7 +18,7 @@ const createBranchInfo = (pathId = 'default') => {
         }					
         
     } else {
-        getData(`http://localhost:3000/${pathId}`)
+        getData(`http://${addr}/${pathId}`)
         .then(data => {            
             drawBranch(branchParentContainer, data, branch);										
     

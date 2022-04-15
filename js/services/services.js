@@ -1,5 +1,4 @@
 'use strict';
-/* jshint esversion: 8 */
 
 const getData = async (url) => {
     let result = await fetch(url);
