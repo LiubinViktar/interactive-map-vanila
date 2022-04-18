@@ -5,7 +5,6 @@ modules:
 2. draw-branch-body - creates block with branch's info
 3. edit-branch - rerender branch information via navigation
 4. interaction-with-map - event listeners and elements style interactions
-5. map - svg map
 
 npm install webpack webpack-cli --save-dev
 npm install json-server 
